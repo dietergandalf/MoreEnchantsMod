@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "enchants:armor_elytra",
+    "minecraft:elytra"
+  ]
+}

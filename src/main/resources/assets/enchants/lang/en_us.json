@@ -1,0 +1,18 @@
+{
+  "item.enchants.ruby": "Ruby",
+  "block.enchants.ruby_block": "Ruby Block",
+  "item.enchants.ruby_pickaxe": "Ruby Infused Pickaxe",
+  "item.enchants.ruby_axe": "Ruby Infused Axe",
+  "item.enchants.ruby_shovel": "Ruby Infused Shovel",
+  "item.enchants.ruby_hoe": "Ruby Infused Hoe",
+  "item.enchants.ruby_sword": "Ruby Infused Sword",
+  "item.enchants.ruby_helmet": "Ruby Infused Helmet",
+  "item.enchants.ruby_chestplate": "Ruby Infused Chestplate",
+  "item.enchants.ruby_leggings": "Ruby Infused Leggings",
+  "item.enchants.ruby_boots": "Ruby Infused Boots",
+  "item.enchants.elytra_armor": "Elytra Armor",
+  "enchantment.enchants.area_miner": "Area Miner",
+  "enchantment.enchants.firemaster": "Master Of Flames",
+  "enchantment.enchants.lifesteal": "Lifesteal",
+  "enchantment.enchants.timber": "Timber"
+}

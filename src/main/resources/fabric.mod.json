@@ -1,0 +1,37 @@
+                                                                                                                                                                               {
+  "schemaVersion": 1,
+  "id": "enchants",
+  "version": "${version}",
+
+  "name": "More Enchants Mod",
+  "description": "This adds some enchantments for convenience",
+  "authors": [
+    "DieterGandalf"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/DieterGandalf"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/enchants/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dietergandalf.moreenchants.MoreEnchants"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "masa mods"
+  }
+}

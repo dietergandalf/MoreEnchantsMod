@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "enchants:ruby"
+  },
+  "result": {
+    "item": "enchants:ruby_chestplate"
+  }
+}

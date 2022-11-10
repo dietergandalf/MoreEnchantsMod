@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "minecraft:item",
+      "item": "enchants:ruby_chestplate"
+    },
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:elytra"
+    }
+  ],
+  "result": {
+    "item": "enchants:elytra_armor",
+    "count": 1
+  }
+}
