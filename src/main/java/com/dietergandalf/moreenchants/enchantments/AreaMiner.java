@@ -19,7 +19,7 @@ public class AreaMiner extends Enchantment {
 
     @Override
     public int getMaxLevel(){
-        return 4;
+        return 5;
     }
 
     @Override

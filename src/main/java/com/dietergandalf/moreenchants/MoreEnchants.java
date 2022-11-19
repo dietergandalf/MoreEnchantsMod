@@ -13,6 +13,7 @@ public class MoreEnchants implements ModInitializer {
 
     public static final String MOD_ID = "enchants";
 
+
     @Override
     public void onInitialize() {
         ModItems.RegisterItems();

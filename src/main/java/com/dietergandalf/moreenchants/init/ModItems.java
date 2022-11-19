@@ -17,9 +17,9 @@ public class ModItems {
     public static final Item RUBY = new Item(new FabricItemSettings().group(ItemGroup.MISC).rarity(Rarity.RARE));
 
     //Tools
-    public static final PickaxeItem RUBY_PICKAXE = new PickaxeItem(ToolMaterials.RUBY_INFUSED_NETHERITE, 7, 1.5f, new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
-    public static final AxeItem RUBY_AXE = new AxeItem(ToolMaterials.RUBY_INFUSED_NETHERITE, 11, 3f, new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
-    public static final ShovelItem RUBY_SHOVEL = new ShovelItem(ToolMaterials.RUBY_INFUSED_NETHERITE, 6, 1.3f, new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
+    public static final PickaxeItem RUBY_PICKAXE = new ModPickaxeItem(ToolMaterials.RUBY_INFUSED_NETHERITE, 7, 1.5f, new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
+    public static final AxeItem RUBY_AXE = new ModAxeItem(ToolMaterials.RUBY_INFUSED_NETHERITE, 11, 3f, new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
+    public static final ShovelItem RUBY_SHOVEL = new ModShovelItem(ToolMaterials.RUBY_INFUSED_NETHERITE, 6, 1.3f, new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
     public static final HoeItem RUBY_HOE = new ModHoeItem(ToolMaterials.RUBY_INFUSED_NETHERITE, 5, 1, new FabricItemSettings().group(ItemGroup.TOOLS).fireproof().rarity(Rarity.EPIC));
     public static final SwordItem RUBY_SWORD = new SwordItem(ToolMaterials.RUBY_INFUSED_NETHERITE,9, 1.25f, new FabricItemSettings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.EPIC));
 
@@ -39,9 +39,9 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby"), RUBY);
 
         //Tools
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_shovel"), RUBY_SHOVEL);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_pickaxe"), RUBY_PICKAXE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_axe"), RUBY_AXE);
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_shovel"), RUBY_SHOVEL);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_hoe"), RUBY_HOE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_sword"), RUBY_SWORD);
 
