@@ -307,7 +307,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "bettertoolsmod:ruby",
+          "name": "enchants:ruby",
           "weight": 15
         }
       ],

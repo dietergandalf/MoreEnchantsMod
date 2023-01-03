@@ -4,5 +4,8 @@
   ],
   "slots": [
     "chest/cape"
+  ],
+  "values": [
+    "enchants:armor_elytra"
   ]
 }
