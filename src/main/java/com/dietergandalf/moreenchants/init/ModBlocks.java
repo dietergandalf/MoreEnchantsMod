@@ -19,7 +19,21 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.METAL)
             .luminance(2));
 
+    public static final Block RUBY_ORE = new Block(FabricBlockSettings
+            .of(Material.STONE, MapColor.RED)
+            .requiresTool()
+            .strength(3.0f, 5.0f)
+            .sounds(BlockSoundGroup.STONE));
+
+    public static final Block DEEPSLATE_RUBY_ORE = new Block(FabricBlockSettings
+            .of(Material.STONE, MapColor.RED)
+            .requiresTool()
+            .strength(4.0f, 6.0f)
+            .sounds(BlockSoundGroup.DEEPSLATE));
+
     public static void RegisterBlocks(){
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "ruby_ore"), RUBY_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "deepslate_ruby_ore"), DEEPSLATE_RUBY_ORE);
     }
 }
