@@ -67,7 +67,6 @@ public class BreakBlockEvent implements PlayerBlockBreakEvents.After {
             ArrayList<BlockPos> AdjacentBlocks = new ArrayList<>();
             ArrayList<util.Tuple> sapling_list = new ArrayList<>();
             getAdjacentTreeBlocks(AdjacentBlocks, sapling_list, world, pos, 0, 6000);
-            print(Integer.toString(AdjacentBlocks.size()));
             for(BlockPos blockpos : AdjacentBlocks){
                 destroyBlockDropAtPlayer(world, blockpos, world.getBlockState(blockpos), player, false);
             }

@@ -32,6 +32,8 @@ public class ModItems {
 
     //Blocks
     public static final BlockItem RUBY_BLOCK = new BlockItem(ModBlocks.RUBY_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).rarity(Rarity.RARE));
+    public static final BlockItem RUBY_ORE = new BlockItem(ModBlocks.RUBY_ORE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).rarity(Rarity.UNCOMMON));
+    public static final BlockItem DEEPSLATE_RUBY_ORE = new BlockItem(ModBlocks.DEEPSLATE_RUBY_ORE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).rarity(Rarity.UNCOMMON));
 
 
     public static void RegisterItems(){
@@ -55,6 +57,8 @@ public class ModItems {
 
         //Blocks
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_ore"), RUBY_ORE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "deepslate_ruby_ore"), DEEPSLATE_RUBY_ORE);
     }
 }
 

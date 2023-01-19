@@ -1,6 +1,8 @@
 {
   "item.enchants.ruby": "Ruby",
   "block.enchants.ruby_block": "Ruby Block",
+  "block.enchants.ruby_ore": "Ruby Ore",
+  "block.enchants.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "item.enchants.ruby_pickaxe": "Ruby Infused Pickaxe",
   "item.enchants.ruby_axe": "Ruby Infused Axe",
   "item.enchants.ruby_shovel": "Ruby Infused Shovel",
