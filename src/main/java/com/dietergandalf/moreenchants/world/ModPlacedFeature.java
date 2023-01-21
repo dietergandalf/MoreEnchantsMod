@@ -11,7 +11,7 @@ import java.util.List;
 public class ModPlacedFeature {
     public static final RegistryEntry<PlacedFeature> RUBY_ORE_PLACED = PlacedFeatures.register(
             "ruby_ore_placed", ModConfiguredFeature.RUBY_ORE, modifiersWithCount(
-                    1,
+                    3,
                     HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-60), YOffset.fixed(10))));
 
 

@@ -16,7 +16,7 @@ public class ModConfiguredFeature {
     );
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE = ConfiguredFeatures
-            .register("ruby_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_RUBY_ORES, 2));
+            .register("ruby_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_RUBY_ORES, 3));
 
     public static void registerConfiguredFeatures(){
         MoreEnchants.LOGGER.debug("Registering the ModConfiguredFeatures for " + MOD_ID);

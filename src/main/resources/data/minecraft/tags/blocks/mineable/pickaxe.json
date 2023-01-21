@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "enchants:ruby_block"
+    "enchants:ruby_block",
+    "enchants:ruby_ore",
+    "enchants:deepslate_ruby_ore"
   ]
 }
