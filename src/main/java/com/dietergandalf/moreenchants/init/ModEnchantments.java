@@ -5,8 +5,9 @@ import com.dietergandalf.moreenchants.enchantments.FireMaster;
 import com.dietergandalf.moreenchants.enchantments.LifeSteal;
 import com.dietergandalf.moreenchants.enchantments.Timber;
 import net.minecraft.enchantment.Enchantment;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 import static com.dietergandalf.moreenchants.MoreEnchants.MOD_ID;
 
@@ -19,9 +20,9 @@ public class ModEnchantments {
 
 
     public static void RegisterEnchantments(){
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "area_miner"), AREA_MINER);
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "firemaster"), FIREMASTER);
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "lifesteal"), LIFESTEAL);
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "timber"), TIMBER);
+        Registry.register(Registries.ENCHANTMENT, new Identifier(MOD_ID, "area_miner"), AREA_MINER);
+        Registry.register(Registries.ENCHANTMENT, new Identifier(MOD_ID, "firemaster"), FIREMASTER);
+        Registry.register(Registries.ENCHANTMENT, new Identifier(MOD_ID, "lifesteal"), LIFESTEAL);
+        Registry.register(Registries.ENCHANTMENT, new Identifier(MOD_ID, "timber"), TIMBER);
     }
 }

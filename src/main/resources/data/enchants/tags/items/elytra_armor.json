@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "enchants:armor_elytra",
+    "enchants:elytra_armor",
     "minecraft:elytra"
   ]
 }

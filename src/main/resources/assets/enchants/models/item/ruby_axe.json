@@ -1,6 +1,6 @@
 {
   "parent":"minecraft:item/handheld",
   "textures":{
-    "layer0":"enchants:items/ruby_axe"
+    "layer0":"enchants:item/ruby_axe"
   }
 }

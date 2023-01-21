@@ -52,7 +52,7 @@ public class util {
 
     public static void print(String msg){
         assert MinecraftClient.getInstance().player != null;
-        MinecraftClient.getInstance().player.sendChatMessage(msg,null);
+        MinecraftClient.getInstance().player.networkHandler.sendChatMessage(msg);
     }
 
     public static class Tuple{

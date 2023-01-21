@@ -1,6 +1,6 @@
 {
   "parent":"minecraft:item/generated",
   "textures":{
-    "layer0":"enchants:items/ruby_chestplate"
+    "layer0":"enchants:item/ruby_chestplate"
   }
 }

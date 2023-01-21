@@ -2,6 +2,7 @@ package com.dietergandalf.moreenchants.events;
 
 import com.dietergandalf.moreenchants.init.ModEnchantments;
 import com.dietergandalf.moreenchants.util.util;
+import com.dietergandalf.moreenchants.util.util.Tuple;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
@@ -16,7 +17,6 @@ import java.util.ArrayList;
 
 import static com.dietergandalf.moreenchants.functions.BreakBlockHelper.destroyBlockDropAtPlayer;
 import static com.dietergandalf.moreenchants.functions.BreakBlockHelper.getAdjacentTreeBlocks;
-import static com.dietergandalf.moreenchants.util.util.*;
 
 
 public class BreakBlockEvent implements PlayerBlockBreakEvents.After {

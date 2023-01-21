@@ -5,8 +5,6 @@ import com.dietergandalf.moreenchants.events.TickHandler;
 import com.dietergandalf.moreenchants.init.ModBlocks;
 import com.dietergandalf.moreenchants.init.ModEnchantments;
 import com.dietergandalf.moreenchants.init.ModItems;
-import com.dietergandalf.moreenchants.world.ModConfiguredFeature;
-import com.dietergandalf.moreenchants.world.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
@@ -21,15 +19,15 @@ public class MoreEnchants implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModConfiguredFeature.registerConfiguredFeatures();
 
         ModItems.RegisterItems();
         ModBlocks.RegisterBlocks();
         ModEnchantments.RegisterEnchantments();
 
-        ModOreGeneration.generateOres();
 
         ServerTickEvents.START_SERVER_TICK.register(new TickHandler());
         PlayerBlockBreakEvents.AFTER.register(new BreakBlockEvent());
+
+        LOGGER.debug(MOD_ID + " loaded.");
     }
 }
