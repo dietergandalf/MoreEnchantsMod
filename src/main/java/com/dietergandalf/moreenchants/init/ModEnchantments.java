@@ -19,9 +19,9 @@ public class ModEnchantments {
 
 
     public static void RegisterEnchantments(){
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "area_miner"), AREA_MINER);
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "firemaster"), FIREMASTER);
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "lifesteal"), LIFESTEAL);
-        Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "timber"), TIMBER);
+        Registry.register(Registry.ENCHANTMENT, Identifier.of(MOD_ID, "area_miner"), AREA_MINER);
+        Registry.register(Registry.ENCHANTMENT, Identifier.of(MOD_ID, "firemaster"), FIREMASTER);
+        Registry.register(Registry.ENCHANTMENT, Identifier.of(MOD_ID, "lifesteal"), LIFESTEAL);
+        Registry.register(Registry.ENCHANTMENT, Identifier.of(MOD_ID, "timber"), TIMBER);
     }
 }

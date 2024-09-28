@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 
 import java.util.List;
@@ -30,7 +31,7 @@ public class util {
     public static final List<Block> LEAVES = List.of(Blocks.NETHER_WART_BLOCK, Blocks.WARPED_WART_BLOCK,
         Blocks.OAK_LEAVES, Blocks.SPRUCE_LEAVES, Blocks.DARK_OAK_LEAVES, Blocks.BIRCH_LEAVES, Blocks.ACACIA_LEAVES, Blocks.BIRCH_LEAVES, Blocks.JUNGLE_LEAVES);
 
-    public static final List<Block> DIRT_VARIANT = List.of(Blocks.DIRT, Blocks.GRASS, Blocks.PODZOL);
+    public static final List<Block> DIRT_VARIANT = List.of(Blocks.DIRT, Blocks.GRASS_BLOCK, Blocks.PODZOL);
     public static final List<Block> NETHERRACK_VARIANTS = List.of(Blocks.NETHERRACK, Blocks.WARPED_NYLIUM, Blocks.CRIMSON_NYLIUM);
 
     public static boolean checkLeave(Block block) { return LEAVES.contains(block); }
@@ -52,7 +53,7 @@ public class util {
 
     public static void print(String msg){
         assert MinecraftClient.getInstance().player != null;
-        MinecraftClient.getInstance().player.sendChatMessage(msg,null);
+        MinecraftClient.getInstance().player.sendMessage(Text.of(msg));
     }
 
     public static class Tuple{
